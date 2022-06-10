@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Test Suite is a collection of test cases, we have to add the condition parallel -->
+<suite name="Suite" parallel="tests">
+  <test name="Test">
+  <parameter name="mybrowser" value="chrome"></parameter>
+    <classes>
+      <class name="webDriver.parallelTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test1">
+  <parameter name="mybrowser" value="firefox"></parameter>
+    <classes>
+      <class name="webDriver.parallelTesting"/>
+    </classes>
+  </test>
+</suite> 

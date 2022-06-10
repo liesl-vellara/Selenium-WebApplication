@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27938" started-at="2022-04-07T11:19:14Z" finished-at="2022-04-07T11:19:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27938" started-at="2022-04-07T11:19:14Z" finished-at="2022-04-07T11:19:42Z">
+      <class name="DDF.POI">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:DDF.POI@14ec4505]" name="testcase1" duration-ms="27895" started-at="2022-04-07T11:19:14Z" finished-at="2022-04-07T11:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- DDF.POI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
